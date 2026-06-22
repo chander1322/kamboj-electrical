@@ -15,8 +15,8 @@ interface FormData {
   confirmPassword: string
 }
 
-const services = ['Home Wiring', 'Panel Upgrade', 'Lighting', 'Safety Inspection', 'Emergency Repair', 'Industrial Work']
-const cities = ['Ludhiana', 'Jalandhar', 'Amritsar', 'Patiala', 'Mohali', 'Bathinda', 'Other']
+const services = ['Home Wiring', 'Panel Upgrade', 'Lighting', 'AC Repair','AC Installation','Inverter Issues','Fridge', 'Safety Inspection', 'Emergency Repair', 'Industrial Work']
+const cities = ['kharar', 'Belongi', 'Mohali', 'Chandigarh', 'Landra', 'Khanpur', 'Other']
 
 export default function RegisterPage() {
   const router = useRouter()
