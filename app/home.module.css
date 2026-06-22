@@ -743,6 +743,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
+  background-color: #0a0a0f;
 }
 
 .footerLogo {
@@ -754,6 +755,7 @@
 .footerLogoText {
   font-weight: 700;
   font-size: 16px;
+  color: #fff;
 }
 
 .footerLogoAccent {

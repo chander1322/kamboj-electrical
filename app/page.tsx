@@ -86,6 +86,8 @@ export default function HomePage() {
             {['Services', 'About', 'Testimonials', 'FAQ'].map(item => (
               <a key={item} href={`#${item.toLowerCase()}`} className={styles.navLink}>{item}</a>
             ))}
+           <Link href="/blog" className={styles.navLink}>Blog</Link>
+
           </div>
           <div className={styles.navActions}>
             {user ? (
